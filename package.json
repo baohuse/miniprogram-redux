@@ -1,0 +1,18 @@
+{
+  "name": "miniprogram-redux",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": "zhemu", 
+  "keywords": ["miniprogram", "redux", "redux toolkit", "miniapp"],
+  "description": "小程序页面和组件连接到 Redux 的库。它提供了订阅 store、检查更新数据和触发重新渲染的功能。", 
+  "scripts": {
+    "lint": "eslint --ext .js pages",
+    "format": "prettier --write pages i18n",
+    "build": "echo ok."
+  },
+  "license": "ISC", 
+  "peerDependencies": {
+    "@reduxjs/toolkit": "^1.9.5"
+  },
+  "maintainers": []
+}
