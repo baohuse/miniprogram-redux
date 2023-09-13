@@ -1,5 +1,5 @@
 {
-  "name": "miniprogram-redux",
+  "name": "miniprogram-redux-tool",
   "version": "0.0.1",
   "main": "./index.js",
   "author": "zhemu", 
@@ -10,9 +10,8 @@
     "format": "prettier --write pages i18n",
     "build": "echo ok."
   },
-  "license": "ISC", 
+  "license": "MIT",
   "peerDependencies": {
     "@reduxjs/toolkit": "^1.9.5"
-  },
-  "maintainers": []
+  }
 }
